@@ -1,0 +1,43 @@
+2024-11-10 09:28:09 INFO  org.example.MobileCompany - Створено нову компанію MobileCompany
+2024-11-10 09:28:09 INFO  org.example.MobileCompany - Додаємо тариф: Basic
+2024-11-10 09:28:09 INFO  org.example.MobileCompany - Додаємо тариф: Premium
+2024-11-10 09:28:09 INFO  org.example.MobileCompany - Додаємо тариф: Unlimited
+2024-11-10 09:28:09 INFO  org.example.MobileCompany - Обчислення загальної кількості клієнтів
+2024-11-10 09:28:09 INFO  org.example.MobileCompany - Створено нову компанію MobileCompany
+2024-11-10 09:28:09 INFO  org.example.MobileCompany - Додаємо тариф: Basic
+2024-11-10 09:28:09 INFO  org.example.MobileCompany - Додаємо тариф: Premium
+2024-11-10 09:28:09 INFO  org.example.MobileCompany - Додаємо тариф: Unlimited
+2024-11-10 09:28:09 INFO  org.example.MobileCompany - Створено нову компанію MobileCompany
+2024-11-10 09:28:09 INFO  org.example.MobileCompany - Додаємо тариф: Basic
+2024-11-10 09:28:09 INFO  org.example.MobileCompany - Додаємо тариф: Premium
+2024-11-10 09:28:09 INFO  org.example.MobileCompany - Додаємо тариф: Unlimited
+2024-11-10 09:28:10 INFO  org.example.MobileCompany - Створено нову компанію MobileCompany
+2024-11-10 09:28:11 INFO  org.example.MobileCompany - Додаємо тариф: Basic
+2024-11-10 09:28:11 INFO  org.example.MobileCompany - Додаємо тариф: Premium
+2024-11-10 09:28:11 INFO  org.example.MobileCompany - Створено нову компанію MobileCompany
+2024-11-10 09:28:11 INFO  org.example.MobileCompany - Створено нову компанію MobileCompany
+2024-11-10 09:28:11 INFO  org.example.MobileCompany - Обчислення загальної кількості клієнтів
+2024-11-10 09:28:11 INFO  org.example.MobileCompany - Обчислення загальної кількості клієнтів
+2024-11-10 09:28:28 INFO  org.example.MobileCompany - Створено нову компанію MobileCompany
+2024-11-10 09:28:32 INFO  org.example.views.LoadTariffsCommand - Виконання команди завантаження тарифів
+2024-11-10 09:28:41 INFO  org.example.views.LoadTariffsCommand - Тарифи завантажено з файлу: kn
+2024-11-10 09:31:57 INFO  org.example.MobileCompany - Створено нову компанію MobileCompany
+2024-11-10 09:32:00 INFO  org.example.views.LoadTariffsCommand - Виконання команди завантаження тарифів
+2024-11-10 09:32:02 ERROR org.example.views.LoadTariffsCommand - Помилка при завантаженні тарифів
+java.lang.IllegalArgumentException: Error loading tariffs from file: , (No such file or directory)
+	at org.example.MobileCompany.loadTariffsFromFile(MobileCompany.java:89)
+	at org.example.views.LoadTariffsCommand.execute(LoadTariffsCommand.java:26)
+	at org.example.views.Menu.selectOption(Menu.java:12)
+	at org.example.Main.main(Main.java:30)
+2024-11-10 09:32:39 INFO  org.example.MobileCompany - Створено нову компанію MobileCompany
+2024-11-10 09:35:36 INFO  org.example.MobileCompany - Створено нову компанію MobileCompany
+2024-11-10 09:35:50 INFO  org.example.MobileCompany - Створено нову компанію MobileCompany
+2024-11-10 09:35:54 INFO  org.example.views.LoadTariffsCommand - Виконання команди завантаження тарифів
+2024-11-10 09:35:57 ERROR org.example.views.LoadTariffsCommand - Помилка при завантаженні тарифів
+java.lang.IllegalArgumentException: Error loading tariffs from file: m (No such file or directory)
+	at org.example.MobileCompany.loadTariffsFromFile(MobileCompany.java:89)
+	at org.example.views.LoadTariffsCommand.execute(LoadTariffsCommand.java:26)
+	at org.example.views.Menu.selectOption(Menu.java:12)
+	at org.example.Main.main(Main.java:30)
+2024-11-10 09:40:36 ERROR org.example.Main - This is a test error to trigger email notification
+2024-11-10 09:40:36 INFO  org.example.MobileCompany - Створено нову компанію MobileCompany
